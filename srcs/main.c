@@ -6,7 +6,7 @@
 /*   By: huweber <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/01/30 16:36:45 by huweber           #+#    #+#             */
-/*   Updated: 2017/02/27 17:47:45 by huweber          ###   ########.fr       */
+/*   Updated: 2017/02/27 18:20:26 by huweber          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ int					real_ima(t_env *e, t_fractal *f, int i)
 			f->z_i = 2 * fabsl(f->z_i * f->zr_tmp) + f->c_i;
 		else
 			f->z_i = 2 * f->z_i * f->zr_tmp + f->c_i;
-		if (f->z_r * f->z_r + f->z_i * f->z_i >= 4)
+		if (f->z_r * f->z_r + f->z_i * f->z_i >= 2)
 			break ;
 	}
 	return (i);

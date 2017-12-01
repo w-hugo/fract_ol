@@ -6,7 +6,7 @@
 /*   By: huweber <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/02/27 14:03:57 by huweber           #+#    #+#             */
-/*   Updated: 2017/02/27 17:42:32 by huweber          ###   ########.fr       */
+/*   Updated: 2017/12/01 11:49:46 by huweber          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,7 +52,7 @@ int				get_type(char *av)
 void			print_usage(int type)
 {
 	if (type == 0)
-		ft_putendl("Usage: ./fdf [mandelbrot/julia/ship]");
+		ft_putendl("Usage: ./fractol [mandelbrot/julia/ship]");
 	else
 	{
 		ft_putendl("Keys :		WASD					Move Image");
