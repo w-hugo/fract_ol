@@ -28,8 +28,8 @@ Made for OS X 10.12+
 
 #### Example:
 
-[Julia Fractal](./img/julia_1.png)
-[Mandelbrot Fractal](./img/mandelbrot_1.png)
+![Julia Fractal](https://github.com/w-hugo/fract_ol/blob/master/img/julia_1.png?raw=true)
+![Mandelbrot Fractal](https://github.com/w-hugo/fract_ol/blob/master/img/mandelbrot_1.png?raw=true)
 
 #### Author
 Hugo Weber
