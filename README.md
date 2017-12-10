@@ -26,6 +26,10 @@ Made for OS X 10.12+
  $> ./fractol [mandelbrot|julia|ship]
 ```
 
+#### Example:
+
+[Julia Fractal](./img/julia_1.png)
+[Mandelbrot Fractal](./img/mandelbrot_1.png)
 
 #### Author
 Hugo Weber
